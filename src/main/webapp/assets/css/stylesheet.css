@@ -1,0 +1,317 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: #FFF;
+	margin: 0px;
+	height: 100%;
+}
+
+a {
+	color: #FFF;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #adadad;
+	font-weight: bold;
+}
+
+#header {
+	min-height: 70px;
+	background: #690919;
+	color: #FFF;
+	position: fixed;
+    padding: 13.5px 0;
+    width: 100%;
+    z-index: 100;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    transition: padding .3s ease;
+    top: 0;
+    left: 0;
+}
+
+#header ul li:hover {
+	color: #edb6b6;
+}
+
+#logo a img {
+	max-width: 100px;
+}
+
+
+#cart {
+	float: right;
+}
+
+.btn-header {
+	min-height: 50px;
+	background: #690919;
+	border: none;
+	width: 100%;
+}
+
+.btn-header:hover {
+	min-height: 50px;
+	background: linear-gradient(to bottom right, #690919, #873a3a);
+	border-color: #772929 #e46262 #e46262 #772929;
+}
+
+.btn-header img {
+	width: 15px;
+}
+
+#infinite {
+	padding-top: 200px;
+}
+
+.footer {
+	bottom: 0;
+	min-height: 70px;
+	color: #FFF;
+	background: linear-gradient(to bottom right, #690919, #873a3a);
+	font-size: 200%;
+	padding: 15px;
+}
+
+.footer a img {
+	padding: 5px;
+    max-width: 70px;
+}
+
+#connect {
+	display: inline;
+}
+
+#dev {
+	padding: 10px;
+	color: 	#873a3a;
+}
+
+#dev a {
+	color: 	#873a3a;
+}
+
+#dev a:hover {
+	color: 	#690919;
+}
+
+.product-caption {
+	border: #873a3a;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.product-img {
+	min-height: 85%;
+    padding: 5%;
+}
+
+.product-img a img {
+	max-width: 320px; 
+	max-height: 320px;
+	padding: 7px;
+}
+
+.product-image {
+	min-height: 85%;
+    padding: 5%;
+}
+
+.product-image img {
+	max-width: 320px; 
+	max-height: 320px;
+	padding: 7px;
+}
+
+.product-container {
+	min-height: 85%;
+    padding: 5%;
+    padding-top: 320px;
+}
+
+.user {
+	float: right;
+	padding-right: 10px;
+}
+
+.product-description {
+	color: #690919;
+}
+
+.product-description h2 {
+	padding-bottom: 20px;
+}
+
+.product-description p {
+	padding-bottom: 50px;
+}
+
+.btn-add-product, .form-login button, #user-form button {
+	color: #FFF;
+	min-height: 50px;
+	background: #690919;
+	border: none;
+	width: 100%;
+	font-size: 20px;
+}
+.btn-add-product:hover, .form-login button:hover, #user-form button:hover{
+	min-height: 50px;
+	background: linear-gradient(to bottom right, #690919, #873a3a);
+	border-color: #772929 #e46262 #e46262 #772929;
+}
+
+.description, .products-on-cart {
+	color: #690919;
+}
+
+.price-old {
+	color: #7a7a7a;
+    text-decoration: line-through;
+}
+
+.price-new, .value-product-on-cart {
+	color: #690919;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.cart-subtotal, .shipping-total, .cart-total, .checkout {
+	float: right;
+	color: #690919;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.checkout button {
+    margin: 10px;;
+}
+
+.cart-total {
+	font-size: 20px;
+}
+
+.product-on-cart, .shipping-methods {
+    padding-bottom: 30px;
+}
+
+.image-product-on-cart a img {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.qtd-product-on-cart input {
+	width: 30%;
+	border: none;
+    background: #c38d8d;
+    color: #FFF;
+    padding-left: 10px;
+}
+
+.sub-product-on-cart, .plus-product-on-cart {
+	width: 20%;
+	color: #FFF;
+	background: #690919;
+	border: none;
+}
+
+.plus-product-on-cart:hover, .sub-product-on-cart:hover {
+	background: linear-gradient(to bottom right, #690919, #873a3a);
+	border-color: #772929 #e46262 #e46262 #772929;
+}
+
+.remove-product-on-cart {
+	border: none;
+	background: none;
+}
+
+.remove-product-on-cart img{
+	width: 20px;
+}
+
+.products-on-cart {
+	padding-top: 200px;
+}
+
+.shipping, .shipping label {
+	float: left;
+}
+
+.products-on-cart h4 {
+	float: left;
+	font-weight: bold;
+}
+
+.checkout {
+	padding-bottom: 50px;
+}
+
+.email {
+	padding-top: 200px;
+	color: #690919;
+	min-height: 380px;
+}
+
+.form-login, #user-form {
+	padding-top: 200px;
+	color: #690919;
+}
+
+.form-login a {
+	color: #690919
+}
+
+.form-login input, #user-form input{
+	float: right;
+	width: 100%;
+    height: 30px;
+}
+
+.form-login button, #user-form button {
+    margin: 20px 0px;
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+	.description h4 {
+		display: none;
+	}
+	
+	#categories {
+		display: none;
+	}
+	
+}
+
+@media screen and (min-width: 768px) {
+	
+	.product-container {
+		min-height: 85%;
+	    padding: 5%;
+	    padding-top: 200px;
+	}
+	
+	#btn-category {
+		display: none;
+	}
+	
+	#categories {
+		display: block;
+		height: 100%;
+		float: left;
+		background: #690919;
+	}
+	
+	.form-login, #user-form {
+		padding: 200px;
+		color: #690919;
+	}
+		
+}
